@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div id="brand">
+        <a href="/"
+          ><span style="color: rgb(18, 85, 5)">Fruit</span
+          ><span style="color: rgb(109, 28, 28)">Revolution</span></a
+        >
+      </div>
+      <nav class="sr-only">
+        <ul class="mobile-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-message">
+        <h1>Serbian Apple</h1>
+        <h2>healthy and refreshing. always.</h2>
+        <button class="hero-btn">More</button>
+      </div>
+    </div>
+    <!-- End of Hero -->
+
+    <!-- About -->
+    <div class="about">
+      <h2>About</h2>
+      <p>
+        Fruit Revolution je jedan od najvećih i najnaprednijih dobavljača
+        visokokvalitetnog voca u Srbiji. Naš cilj je proizvodnja i ponuda naših
+        jabuka i drugog voca u skladu sa standardima i zahtevima domaceg i
+        inostranih tržišta.
+      </p>
+      <div class="about-numbers">
+        <h4>FruitRevolution in numbers</h4>
+        <div class="stats">
+          <div class="stat">
+            <img src="./icons/pencil-and-ruler.png" alt="" />
+            <p>1100+</p>
+            <p>hektara zasada</p>
+          </div>
+          <div class="stat">
+            <img src="./icons/warehouse.png" alt="" />
+            <p>20000 t</p>
+            <p>skladisnog prostora</p>
+          </div>
+          <div class="stat">
+            <img src="./icons/pencil-and-ruler.png" alt="" />
+            <p>50+</p>
+            <p>proizvoda u ponudi</p>
+          </div>
+          <div class="stat">
+            <img src="./icons/hand-shake.png" alt="" />
+            <p>200+</p>
+            <p>kooperanata</p>
+          </div>
+        </div>
+      </div>
+      <p>
+        Promovisemo proizvodjace voca i njihove proizvode, delimo novine o
+        industriji voca i gradimo veze sa medjunarodnim kupcima. Na osnovu
+        dugorocnih ugovora i vec uspesne saradnje sa vodecim proizvodjacima voca
+        iz razlicitih regija u Srbiji, nasim kupcima obezbedjujemo kvalitet,
+        kvantitet i kontinuitet isporuka, obezbedjujuci najbolji odnos
+        cena-kvalitet.
+      </p>
+    </div>
+    <!-- End of About -->
+
+    <!-- Products -->
+    <div class="products">
+      <h2>Products</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <img src="./images/red-delicious.png" alt="" />
+          <h3>Red Delicious</h3>
+          <h4>Fruit</h4>
+          <p>
+            Red Delicious is crunchy, juicy, sweet apple with a typical aroma
+            for its variety.
+          </p>
+          <h4>Taste</h4>
+          <p>
+            The fruit is medium to large in size, elongated and has five
+            distinct rib crowns in the core cavity. The color is bright to
+            dark-red, but some clones can have varieties in color.
+          </p>
+          <h4 class="text-center darkred">Availability</h4>
+          <p>March, April, May, June</p>
+        </div>
+        <div class="card">
+          <img src="./images/golden-delicious.png" alt="" />
+          <h3>Golden Delicious</h3>
+          <h4>Fruit</h4>
+          <p>
+            Golden Delicious apples are sweet, juicy and crispy with a very
+            agreeable aroma and fine fruit acid.
+          </p>
+          <h4>Taste</h4>
+          <p>
+            The apples are medium to large in size, elongated, symmetrical and
+            of uniform shape. The color of this variety ranges from greenish
+            yellow to golden yellow.
+          </p>
+          <h4 class="text-center darkred">Availability</h4>
+
+          <p>March, April, May, June</p>
+        </div>
+        <div class="card">
+          <img src="./images/idared.png" alt="" />
+          <h3>Idared</h3>
+          <h4>Fruit</h4>
+          <p>
+            Sweet and tart, juicy yet crisp and firm. The best fruits have a
+            sprightly, aromatic, and refreshing flavor.
+          </p>
+          <h4>Taste</h4>
+          <p>
+            Medium to extra-large in size, and generally round, with a layer
+            bright red over a green-red background. The flesh is
+            yellowish-green, although sometimes a faint pink tinge can be
+            detected.
+          </p>
+          <h4 class="text-center darkred">Availability</h4>
+
+          <p>March, April, May, June</p>
+        </div>
+        <div class="card">
+          <img src="./images/gala.png" alt="" />
+          <h3>Gala</h3>
+          <h4>Fruit</h4>
+          <p>
+            Their flesh is creamy yellow, crisp and juicy, offering a mildly
+            sweet aroma.
+          </p>
+          <h4>Taste</h4>
+          <p>
+            The apple is small to medium-sized, firm and round in shape. They
+            are covered in a thin, smooth yellow skin, highlighted with gentle
+            red stripes.
+          </p>
+          <h4 class="text-center darkred">Availability</h4>
+
+          <p>March, April, May, June</p>
+        </div>
+        <div class="card">
+          <img src="./images/granny-smith.png" alt="" />
+          <h3>Granny Smith</h3>
+          <h4>Fruit</h4>
+          <p>
+            Granny Smith is crunchy, juicy, sweet apple with a typical aroma for
+            its variety.
+          </p>
+          <h4>Taste</h4>
+          <p>
+            The apples are large in size and round in shape. They have bright
+            green skin that is often speckled with faint white lenticels. This
+            variety is also known as the "green apple".
+          </p>
+          <h4 class="text-center darkred">Availability</h4>
+
+          <p>March, April, May, June</p>
+        </div>
+        <div class="card">
+          <img src="./images/red-delicious.png" alt="" />
+          <h3>Jonaprince</h3>
+          <h4>Fruit</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad neque
+            maxime magni.
+          </p>
+          <h4>Taste</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo
+            ex qui exercitationem architecto mollitia, amet omnis suscipit
+            quaerat illum, natus eveniet, aperiam magni!
+          </p>
+          <h4>Availability</h4>
+          <p>March, April, May, June</p>
+        </div>
+      </div>
+    </div>
+    <!-- End of Products -->
+
+    <!-- Packaging -->
+    <div class="packaging">
+      <h2>Packaging</h2>
+      <p>
+        We have a potential to answer all our customer's demands concerning
+        wrapping material and packaging (wooden, plastic, carton) to fulfill
+        their needs.
+      </p>
+      <h4>Types of packaging:</h4>
+      <div class="packaging-types">
+        <p class="accordion">
+          Foodtainer 4,6,8 fruits. Polystyrene/polypropylene, Wood pulp.
+        </p>
+        <div class="accordion-panel">
+          <img src="./images/packages/foodtainer.png" alt="" />
+        </div>
+        <p class="accordion">Cardboard boxes, 1 layer</p>
+        <div class="accordion-panel">
+          <img src="./images/packages/cardboard-1layer.png" alt="" />
+        </div>
+        <p class="accordion">Plateaus, 2 layers</p>
+        <div class="accordion-panel">
+          <img src="./images/packages/plateaus-2layers.png" alt="" />
+        </div>
+        <p class="accordion">Fruitbox, loose apples in box</p>
+        <div class="accordion-panel">
+          <img src="./images/packages/fruitbox.png" alt="" />
+        </div>
+        <p class="accordion">Maxpac box loose apples in box</p>
+        <div class="accordion-panel">
+          <img src="./images/packages/maxpac.png" alt="" />
+        </div>
+        <p class="accordion">
+          Euro cardboard box, for sealed bags, bags and trays
+        </p>
+        <div class="accordion-panel">
+          <img src="./images/packages/euro-cardbox.png" alt="" />
+        </div>
+        <p class="accordion">Traypac, 5 layer</p>
+        <div class="accordion-panel">
+          <img src="./images/packages/traypack.png" alt="" />
+        </div>
+        <p class="accordion">Reusable plastic crate: 1 layer / 2 layers</p>
+        <div class="accordion-panel">
+          <img src="./images/packages/reusable-plastic-crate.png" alt="" />
+        </div>
+        <p class="accordion">Bags, 1 kg/1.5 kg/2 kg net weight</p>
+        <div class="accordion-panel">
+          <img src="./images/packages/bags.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End of Packaging -->
+
+    <!-- Storing -->
+    <div class="storing">
+      <h2>Storing</h2>
+      <p>
+        Our storing and sorting facility is designed and built in accordance
+        with the highest industry standards.
+        <br />
+        <br />
+        We own a modern cold storage facilities with ULO(Ultra low Oxygen) &
+        DCA(Dynamic Control Atmosphere) technology and machines for cleaning,
+        calibrating and packaging apples.
+      </p>
+    </div>
+    <!-- End of Storing -->
+
+    <!-- About Serbia -->
+    <div class="about-serbia">
+      <h2>About Serbia</h2>
+      <p>
+        Srbija je blagoslovena raznovrsnoscu ukusnog voca koje raste u suncanoj
+        klimi i netaknutoj zemlji. Godisnje uzgaja oko 1.5 miliona tona
+        razlicitog voca na oko 190 000 hektara plantaza. Uz povecanje
+        investicija u visokotehnoloske vocnjake i logisticku infrastrukturu,
+        moderizovani sektor voca u srbiji je u porastu u poslednjoj deceniji.
+      </p>
+
+      <p>
+        Povoljni klimatski uslovi u kombinaciji sa odličnim kvalitetom zemljišta
+        pružaju zdrav potencijal za uzgoj plodova vrhunskog kvaliteta.
+      </p>
+      <p>
+        Sa 8% svetske proizvodnje, Srbija je dom svetski poznate maline, cetvrti
+        najveci proizvodjac sljive u svetu i jedan od najvecih proizvodjaca
+        jabuge u jugoistocnoj Evropi.
+      </p>
+      <p>
+        Takodje, Srbija postaje jedan od najprepoznatljivijih proizvodjaca
+        borovnice, ciji se moderni zasadi dinamicno sire, sledeci uspesan put
+        svetski poznate Srpske maline.
+      </p>
+    </div>
+    <!-- End of About Serbia -->
+
+    <!-- Contact -->
+    <div class="contact">
+      <h2>Contact</h2>
+      <p>
+        Always open for dialogue and new ideas. If you got any, feel free to
+        reach us.
+      </p>
+      <div class="contact-info">
+        <h4>Tel:</h4>
+        <p>+381 213 23194</p>
+        <h4>Email:</h4>
+        <p>info@fruitrevolution.com</p>
+        <h4>Address:</h4>
+        <p>Tu i tamo 8, Belgrade, Serbia</p>
+      </div>
+    </div>
+    <!-- End of Contact -->
+
+    <!-- JScript -->
+    <script src="./js/nav.js"></script>
+    <script src="./js/accordion.js"></script>
+  </body>
+</html>
